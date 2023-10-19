@@ -101,12 +101,12 @@ code {
 }
 
 .note.new {
-  background-color: pink;
+  background-color: lightgreen;
 }
 textarea {
   border: none;
   resize: none;
-  background-color: pink;
+  background-color: lightgreen;
 }
 textarea:focus {
   outline: none;
