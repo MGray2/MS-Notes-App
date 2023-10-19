@@ -36,6 +36,7 @@ function App() {
   const removeNote = (id) => {
     const newNotes = notes.filter((note) => note.id !== id);
     setNotes(newNotes);
+    localStorage.setItem("react-notes-app-data", JSON.stringify(newNotes));
   };
 
   return (
