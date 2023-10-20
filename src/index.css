@@ -81,6 +81,7 @@ code {
   font-family: Arial;
   padding: 1rem;
   min-height: 170px;
+  max-width: 280px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

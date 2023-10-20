@@ -7,7 +7,7 @@ function App() {
   const [notes, setNotes] = useState([]);
   const [searchText, setSearchText] = useState("");
 
-  // uses previously saved data from local storage
+  // uses previously saved data from local storage, if available
   useEffect(() => {
     const savedData = JSON.parse(localStorage.getItem("react-notes-app-data"));
 
